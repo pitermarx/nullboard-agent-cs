@@ -12,6 +12,7 @@
     <Description>NullBoardAgent is a web api that nullboard.io calls to back up the boards</Description> 
     <Authors>pitermarx</Authors>
     <PackageTags>nullboard</PackageTags>
+    <PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
     <Version>0.0.1</Version>
   </PropertyGroup>
 </Project>
