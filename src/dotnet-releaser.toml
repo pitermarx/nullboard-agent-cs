@@ -1,0 +1,6 @@
+# config for dotnet-releaser
+[msbuild]
+project = "nullboard-agent.csproj"
+[github]
+user = "pitermarx"
+repo = "nullboard-agent-cs"
