@@ -2,7 +2,11 @@ name: Publish
 
 on:
   push:
-    branches: [ "master" ]
+    branches:
+      - main # Used for stable releases
+      - develop # Used for preview releases
+    tags:
+      - '*' # run on all tags being pushed
   pull_request:
     branches: [ "master" ]
 
@@ -20,7 +24,7 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 9.0.x
-    
+
     - name: Build, Publish (on push tag)
       shell: bash
       run: |
