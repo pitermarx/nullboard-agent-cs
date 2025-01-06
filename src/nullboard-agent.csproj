@@ -6,13 +6,17 @@
     <RootNamespace>nullboard_agent_master</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
-
-  <PropertyGroup>
+    
     <Description>NullBoardAgent is a web api that nullboard.io calls to back up the boards</Description> 
     <Authors>pitermarx</Authors>
     <PackageTags>nullboard</PackageTags>
     <PackageLicenseExpression>BSD-2-Clause</PackageLicenseExpression>
+
+    <AssemblyName>nullboard-agent</AssemblyName>
+    <PackageId>$(AssemblyName)</PackageId>
+    <ToolCommandName>$(AssemblyName)</ToolCommandName>
+    <PackAsTool>true</PackAsTool>
+
     <Version>0.0.1</Version>
   </PropertyGroup>
 </Project>
