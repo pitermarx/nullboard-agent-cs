@@ -4,3 +4,5 @@ project = "nullboard-agent.csproj"
 [github]
 user = "pitermarx"
 repo = "nullboard-agent-cs"
+[nuget]
+publish = false
