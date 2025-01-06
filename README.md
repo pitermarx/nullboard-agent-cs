@@ -1,3 +1,8 @@
+## FORK OF Nullboard Agent
+But written in CS
+
+Original readme below
+
 ## Nullboard Agent
 
 This is a repo with the source code for Nullboard Backup Agent - a
